@@ -1,5 +1,5 @@
 #include <iostream>
-  
+
 int main()
 {
     int grade;
@@ -21,6 +21,6 @@ int main()
     }
     else
         std::cout << "\nFail\n";
- 
+
     return 0;
 }

@@ -14,7 +14,7 @@ Part I: Beginning C++
 [x] Hour 1. Writing Your First Program
 [x] Hour 2. Organizing the Parts of a Program
 [x] Hour 3. Creating Variables and Constants
-[ ] Hour 4. Using Expressions, Statements, and Operators
+[x] Hour 4. Using Expressions, Statements, and Operators
 [ ] Hour 5. Calling Functions
 [ ] Hour 6. Controlling the Flow of a Program
 [ ] Hour 7. Storing Information in Arrays and Strings
