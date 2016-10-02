@@ -7,10 +7,12 @@ public:
     ~Tricycle();
     int getSpeed();
     void setSpeed(int speed);
+    void setWheelsize(int wheelsize);
     void pedal();
     void brake();
 private:
     int speed;
+    int wheelsize;
 };
  
 // constructor for the object
@@ -39,6 +41,15 @@ void Tricycle::setSpeed(int newSpeed)
         speed = newSpeed;
     }
 }
+
+// set the trike's speed
+void Tricycle::setWheelsize(int newWheelsize)
+{
+    if (newWheelsize >= 4)
+    {
+        wheelsize = newWheelsize;
+    }
+}
   
 // pedal the trike
 void Tricycle::pedal()
@@ -58,6 +69,7 @@ void Tricycle::brake()
 int main()
 {
     Tricycle wichita(5);
+    wichita.setWheelsize(4);
     wichita.pedal();
     wichita.pedal();
     wichita.brake();

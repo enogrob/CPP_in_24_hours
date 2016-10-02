@@ -1,7 +1,9 @@
 #include <iostream>
  
 int main()
-{
-    std::cout << "Solidum petit in profundis!\n";
+{ char*  input_string;
+    std::cout << "Entra Hello World:";
+    std::cin >> input_string;
+    std::cout << input_string;
     return 0;
 }

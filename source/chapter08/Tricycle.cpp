@@ -44,11 +44,21 @@ void Tricycle::brake()
 int main()
 {
     Tricycle wichita;
+    Tricycle trike;
+
     wichita.setSpeed(0);
     wichita.pedal();
     wichita.pedal();
     wichita.brake();
     wichita.brake();
     wichita.brake();
+
+    trike.setSpeed(0);
+    trike.pedal();
+    trike.pedal();
+    trike.brake();
+    trike.brake();
+    trike.brake();
+
     return 0;
 }
