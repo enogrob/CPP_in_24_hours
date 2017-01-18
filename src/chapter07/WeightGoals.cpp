@@ -14,9 +14,8 @@ int main()
     std::cout << "\nEnter goal weight: ";
     std::cin >> target;
     std::cout << "\n";
- 
-    for (int i = 0; i < 4; i++)
-    {
+
+    for (int i = 0; i < 4; i++) {
         float loss = (weight - target) * goal[i];
         std::cout << "Goal " << i << ": ";
         std::cout << weight - loss << "\n";

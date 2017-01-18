@@ -19,7 +19,10 @@ int main()
     case 'D':  
         std::cout << "You're not smart!\n";
         break;
-    case 'F':  
+    case 'F':
+        std::cout << "Get out of my sight!\n";
+        break;
+    case 'E':
         std::cout << "Get out of my sight!\n";
         break;
     default: 

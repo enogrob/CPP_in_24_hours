@@ -17,9 +17,9 @@ Part I: Beginning C++
 [x] Hour 4. Using Expressions, Statements, and Operators
 [x] Hour 5. Calling Functions
 [x] Hour 6. Controlling the Flow of a Program
-[x] Hour 7. Storing Information in Arrays and Strings
+[ ] Hour 7. Storing Information in Arrays and Strings
 Part II: Classes
-[x] Hour 8. Creating Basic Classes
+[ ] Hour 8. Creating Basic Classes
 [ ] Hour 9. Moving into Advanced Classes
 Part III: Memory Management
 [ ] Hour 10. Creating Pointers
